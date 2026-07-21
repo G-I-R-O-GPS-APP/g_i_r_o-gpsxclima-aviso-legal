@@ -69,7 +69,7 @@
 <body>
 <main>
   <h1>Política de Privacidade do GIRO GPS + Clima</h1>
-  <p class="muted">Última atualização: 15 de julho de 2026</p>
+  <p class="muted">Última atualização: 21 de julho de 2026</p>
 
   <div class="box">
     <p><strong>Contato de suporte e privacidade:</strong><br>
@@ -100,7 +100,8 @@
     <li>cache/SQLite offline, incluindo cache climático temporário e âncoras de rota;</li>
     <li>preferências do usuário;</li>
     <li>chave TomTom inserida pelo próprio usuário, quando esse recurso é utilizado;</li>
-    <li>arquivos locais selecionados pelo usuário para importação offline, quando houver recurso disponível.</li>
+    <li>arquivos locais selecionados pelo usuário para importação offline, quando houver recurso disponível;</li>
+    <li>arquivos locais de planejamento <code>planTrip.json</code> selecionados pelo usuário, contendo nome do plano, dias, nomes simples de waypoints, latitude, longitude, ordem e papel dos pontos.</li>
   </ul>
   <p>O app não possui recurso de voz nesta versão, não solicita microfone e não coleta gravações de voz, sons ou áudio ambiente.</p>
 
@@ -114,7 +115,8 @@
     <li>avisar sobre chuva, vento, baixa visibilidade, aquaplanagem e outros fatores que afetam a dirigibilidade;</li>
     <li>buscar postos, borracharias, oficinas, alimentação, hospitais e apoio essencial;</li>
     <li>preparar dados offline para trechos sem sinal de celular;</li>
-    <li>salvar histórico local de rotas e expedições.</li>
+    <li>salvar histórico local de rotas e expedições;</li>
+    <li>importar planos de viagem fornecidos pelo usuário e gravá-los como expedições no SQLite interno do aplicativo.</li>
   </ul>
   <p>O GIRO GPS + Clima não usa esses dados para anúncios, publicidade, marketing, análise comercial, personalização publicitária ou gerenciamento de conta de usuário.</p>
 
@@ -133,7 +135,7 @@
   <p>Esses serviços são usados para clima, mapas, tiles, rotas, geocodificação, pontos de interesse, tráfego ou infraestrutura de rota. O GIRO GPS + Clima não controla as políticas de privacidade desses terceiros.</p>
 
   <h2>5. Armazenamento local</h2>
-  <p>O app pode armazenar dados localmente no dispositivo, incluindo rotas salvas, expedições, infraestrutura offline, cache/SQLite offline, cache climático temporário, âncoras de rota, preferências do usuário e chave TomTom quando fornecida.</p>
+  <p>O app pode armazenar dados localmente no dispositivo, incluindo rotas salvas, expedições, planos importados por arquivo <code>planTrip.json</code>, infraestrutura offline, cache/SQLite offline, cache climático temporário, âncoras de rota, preferências do usuário e chave TomTom quando fornecida.</p>
   <p>Esses dados ficam no armazenamento do aplicativo no dispositivo. Nesta fase, o app não possui servidor próprio de conta, sincronização ou identificação de usuário.</p>
 
   <h2>6. Chave TomTom</h2>
@@ -149,8 +151,8 @@
 
   <h2>9. Retenção e exclusão de dados</h2>
   <p>O GIRO GPS + Clima não possui conta de usuário, servidor próprio de armazenamento de dados pessoais ou mecanismo remoto para exclusão de dados no aparelho do usuário.</p>
-  <p>Dados locais permanecem no dispositivo até que o usuário remova a chave TomTom, quando esse controle estiver disponível, limpe os dados do aplicativo nas configurações do Android, desinstale o aplicativo ou apague manualmente arquivos de backup criados fora do aplicativo.</p>
-  <p>Nesta versão, não há garantia de botão individual para apagar todo o histórico de rotas prontas ou todo o banco de dados interno. Como o GIRO GPS + Clima não armazena esses dados em servidor próprio, o desenvolvedor não consegue excluir remotamente dados que estejam apenas no aparelho do usuário.</p>
+  <p>Dados locais permanecem no dispositivo até que o usuário remova a chave TomTom, quando esse controle estiver disponível, exclua rotas ou expedições pela interface do aplicativo, limpe os dados do aplicativo nas configurações do Android, desinstale o aplicativo ou apague manualmente arquivos de backup criados fora do aplicativo.</p>
+  <p>Como o GIRO GPS + Clima não armazena esses dados em servidor próprio, o desenvolvedor não consegue excluir remotamente dados que estejam apenas no aparelho do usuário.</p>
 
   <h2>10. Segurança</h2>
   <p>As comunicações externas usadas pelo app são realizadas por HTTPS com os serviços externos usados pelo aplicativo.</p>
