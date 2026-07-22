@@ -75,7 +75,7 @@
     <p><strong>Contato de suporte e privacidade:</strong><br>
       <a href="mailto:suporte.girogpsclima@gmail.com">suporte.girogpsclima@gmail.com</a>
     </p>
-    <p>Esta política se aplica exclusivamente ao aplicativo GIRO GPS + Clima, pacote Android <code>com.opensource.giro.giro</code>.</p>
+    <p>Esta política se aplica ao aplicativo GIRO GPS + Clima, pacote Android <code>com.opensource.giro.giro</code>, e ao pacote complementar Expedition App desktop quando distribuído junto ao projeto GIRO.</p>
   </div>
 
   <h2>1. Sobre o aplicativo</h2>
@@ -155,6 +155,13 @@
   <h2>7. Armazenamento local</h2>
   <p>O app pode armazenar dados localmente no dispositivo, incluindo rotas salvas, expedições, planos importados por arquivo <code>planTrip.json</code>, infraestrutura offline, cache/SQLite offline, cache climático temporário, âncoras de rota, preferências do usuário e chave TomTom quando fornecida.</p>
   <p>Esses dados ficam no armazenamento do aplicativo no dispositivo. Nesta fase, o app não possui servidor próprio de conta, sincronização ou identificação de usuário.</p>
+
+  <h2>7.1. Expedition App desktop</h2>
+  <p>O Expedition App desktop é um pacote complementar de planejamento de viagens para computador, distribuído como PWA local para Windows, Linux e macOS. Ele não inclui instaladores Android ou iOS.</p>
+  <p>O Expedition App desktop usa um servidor local temporário em <code>http://127.0.0.1:18473</code> apenas para carregar a PWA no navegador com origem fixa. O pacote não possui servidor próprio remoto e não envia automaticamente banco, expedições, coordenadas, checklists, riscos ou histórico para nenhum provedor fora do computador.</p>
+  <p>Os dados do Expedition App desktop ficam armazenados internamente no navegador usado na instalação, em SQLite local com OPFS quando disponível. Trocar navegador, perfil, host ou porta cria outro armazenamento local. Limpar dados do site, limpar armazenamento/cache do navegador, remover a PWA, reinstalar ou apagar manualmente dados do navegador pode excluir ou isolar os dados armazenados localmente.</p>
+  <p>Para preservar ou transferir o planejamento do Expedition App desktop, o usuário deve exportar um backup SQLite pelo menu de dados e relatórios antes de trocar computador, navegador, perfil, porta ou limpar dados do navegador.</p>
+  <p>O Expedition App desktop pode abrir links externos do Google Maps para rota ou busca usando coordenadas e nomes informados no planejamento. Esse acesso externo ocorre somente quando o usuário abre o link e fica sujeito aos termos e políticas do serviço externo acessado.</p>
 
   <h2>8. Chave TomTom</h2>
   <p>A chave TomTom é opcional e inserida pelo usuário. Ela é usada somente para acionar os serviços TomTom configurados no app.</p>
